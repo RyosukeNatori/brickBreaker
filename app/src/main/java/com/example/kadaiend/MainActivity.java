@@ -16,19 +16,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void beginner(View view){
         Intent intent=new Intent(this, brickBreakerActivity.class);
-        intent.putExtra("difficulty", "beginner");
+        intent.putExtra("difficulty", "1");
         startActivity(intent);
     }
 
     public void normal(View view){
         Intent intent=new Intent(this, brickBreakerActivity.class);
-        intent.putExtra("difficulty", "normal");
+        intent.putExtra("difficulty", "2");
         startActivity(intent);
     }
 
     public void advanced(View view){
         Intent intent=new Intent(this, brickBreakerActivity.class);
-        intent.putExtra("difficulty", "advanced");
+        intent.putExtra("difficulty", "3");
         startActivity(intent);
     }
 }
